@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+input, select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #0a6eff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.result {
+  margin-top: 2rem;
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-left: 5px solid #0a6eff;
+}

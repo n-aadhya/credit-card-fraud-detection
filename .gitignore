@@ -1,0 +1,37 @@
+# -----------------------------
+# Python ignores (backend/)
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pkl
+*.joblib
+*.h5
+*.npy
+*.npz
+
+# Virtual environment
+venv/
+
+# Data and logs
+backend/data/
+backend/check_feature_importance.py
+*.log
+
+# VSCode/IDE settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Node.js ignores (frontend/)
+# -----------------------------
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.next/
+frontend/.cache/
