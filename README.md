@@ -6,7 +6,6 @@ An end-to-end web application for detecting and analyzing fraudulent credit card
 
 - 🔍 **Predict Transactions** — Input transaction details and detect fraud risk in real-time.
 - 📊 **Visual Analytics** — View insights such as fraud by category, risk level distribution, and feature importance.
-- 🌍 **Heatmap Visualization** — Geo-plot fraud occurrences using lat/long data.
 - 📈 **Explainability** — See which features contribute most to fraud detection.
 
 ---
@@ -14,7 +13,7 @@ An end-to-end web application for detecting and analyzing fraudulent credit card
 ## 🛠 Tech Stack
 
 ### Frontend
-- React.js (Vite or CRA)
+- React.js 
 - Recharts (for graphs and analytics)
 - Tailwind CSS
 
@@ -28,7 +27,7 @@ An end-to-end web application for detecting and analyzing fraudulent credit card
 ---
 
 ## 📁 Project Structure
-
+```plaintext
 credit-card-fraud-detection/
 │
 ├── backend/
@@ -50,13 +49,13 @@ credit-card-fraud-detection/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ## ▶️ How to Run Locally
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/credit-card-fraud-detection.git
+git clone https://github.com/yashasvi-71/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 
 ### 2. Backend
