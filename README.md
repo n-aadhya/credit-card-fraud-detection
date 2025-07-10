@@ -54,24 +54,26 @@ credit-card-fraud-detection/
 ## ▶️ How to Run Locally
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/yashasvi-71/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
-
+```
 ### 2. Backend
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python app.py
-
+```
 ### 3. Frontend
+```bash
 cd frontend
 npm start
-
+```
 
 📊 Example API Request
-
+```bash
 POST /predict
 {
   "trans_date": "2023-07-01",
@@ -84,3 +86,4 @@ POST /predict
   "merch_long": -122.4193,
   "job": "Engineer"
 }
+```
